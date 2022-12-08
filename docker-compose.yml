@@ -11,7 +11,7 @@ services:
     hostname: mysql
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=achatdb
+      - MYSQL_DATABASE=examv2thouraya
    
 
  spring_app:
@@ -21,7 +21,7 @@ services:
   ports:
       - 8089:8089
   environment:
-      - spring.datasource.url=jdbc:mysql://mysqldb:3306/achatdb
+      - spring.datasource.url=jdbc:mysql://mysqldb:3306/examv2thouraya
   depends_on:
     - mysqldb
 volumes:
