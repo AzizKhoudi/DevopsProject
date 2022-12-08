@@ -12,8 +12,6 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=examv2thouraya
-   
-
  spring_app:
   image: azizkhoudi/repo:latest
   container_name: cntr_achat
