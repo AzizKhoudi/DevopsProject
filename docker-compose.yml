@@ -15,7 +15,7 @@ services:
     volumes:
       - db:/var/lib/mysql
  spring_app:
-    image: azizkhoudi/repo:latest
+    image: azizkhoudi/repo:7
     container_name: cntr_achat
     restart: on-failure
     ports:
